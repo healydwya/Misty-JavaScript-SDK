@@ -1,0 +1,19 @@
+{
+    "Name": "Control",
+    "UniqueId": "7e56a107-844e-4489-8793-7094c011d3ae",
+    "Description": "Drives misty fwd with no sound",
+    "StartupRules": [
+        "Manual",
+        "Robot"
+    ],
+    "Language": "javascript",
+    "BroadcastMode": "verbose",
+    "TimeoutInSeconds": 600,
+    "CleanupOnCancel": true,
+    "WriteToLog": false,
+    "Parameters": {
+        "int": 10,
+        "double": 20.5,
+        "string": "twenty"
+    }
+}

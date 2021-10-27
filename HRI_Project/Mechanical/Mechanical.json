@@ -1,0 +1,19 @@
+{
+    "Name": "Mechanical",
+    "UniqueId": "b78f4342-2347-4feb-a70d-e5722a8425e7",
+    "Description": "Drives misty forward with mecahnical sound",
+    "StartupRules": [
+        "Manual",
+        "Robot"
+    ],
+    "Language": "javascript",
+    "BroadcastMode": "verbose",
+    "TimeoutInSeconds": 600,
+    "CleanupOnCancel": true,
+    "WriteToLog": false,
+    "Parameters": {
+        "int": 10,
+        "double": 20.5,
+        "string": "twenty"
+    }
+}

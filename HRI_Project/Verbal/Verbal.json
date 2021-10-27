@@ -1,0 +1,19 @@
+{
+    "Name": "Verbal",
+    "UniqueId": "559ebb19-471c-41bb-bb47-4941c3f4d4ca",
+    "Description": "Drives misty forward with verbal sound",
+    "StartupRules": [
+        "Manual",
+        "Robot"
+    ],
+    "Language": "javascript",
+    "BroadcastMode": "verbose",
+    "TimeoutInSeconds": 600,
+    "CleanupOnCancel": true,
+    "WriteToLog": false,
+    "Parameters": {
+        "int": 10,
+        "double": 20.5,
+        "string": "twenty"
+    }
+}

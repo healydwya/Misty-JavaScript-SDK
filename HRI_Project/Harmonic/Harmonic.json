@@ -1,0 +1,19 @@
+{
+    "Name": "Harmonic",
+    "UniqueId": "e4ba02da-58f9-45ff-a284-1b2290ff16ea",
+    "Description": "Drives misty forward with harmonic sound",
+    "StartupRules": [
+        "Manual",
+        "Robot"
+    ],
+    "Language": "javascript",
+    "BroadcastMode": "verbose",
+    "TimeoutInSeconds": 600,
+    "CleanupOnCancel": true,
+    "WriteToLog": false,
+    "Parameters": {
+        "int": 10,
+        "double": 20.5,
+        "string": "twenty"
+    }
+}
