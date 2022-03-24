@@ -1,0 +1,19 @@
+{
+    "Name": "Healy",
+    "UniqueId": "95c649f6-3bd0-4f8c-853d-a1e868834116",
+    "Description": "My skill is amazing!",
+    "StartupRules": [
+        "Manual",
+        "Robot"
+    ],
+    "Language": "javascript",
+    "BroadcastMode": "verbose",
+    "TimeoutInSeconds": 600,
+    "CleanupOnCancel": true,
+    "WriteToLog": false,
+    "Parameters": {
+        "int": 10,
+        "double": 20.5,
+        "string": "twenty"
+    }
+}
